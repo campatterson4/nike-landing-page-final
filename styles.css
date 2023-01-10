@@ -205,4 +205,5 @@ button {
    .main-heading {
     font-size: 3rem;
     color: var(--black);
+    line-height: 1.3;
    }

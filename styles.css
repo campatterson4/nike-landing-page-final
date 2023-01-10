@@ -136,7 +136,7 @@ header.scrolled .nike-logo {
 .main-area {
     width: 100%;
     overflow: hidden;
-    padding: 300px 0; 
+    padding: 275px 0; 
 }
 
 .main-area .container {
@@ -206,4 +206,11 @@ button {
     font-size: 3rem;
     color: var(--black);
     line-height: 1.3;
+   }
+
+   .main-summary {
+    color: var(--black);
+    line-height: 1.3;
+    margin-top: 10px;
+    letter-spacing: .5px;
    }

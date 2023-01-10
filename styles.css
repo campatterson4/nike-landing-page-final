@@ -74,6 +74,11 @@ nav.container {
     font-size: .9rem;
     letter-spacing: .5px;
     color: var(--blue) !important;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    color: var(--black) !important;
 }
 
 .links ul {
@@ -91,4 +96,15 @@ nav.container {
     font-style: italic;
     font-size: 2.4rem;
     color: var(--black);
+}
+
+.dark-mode-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-width: 40px;
+    color: var(--blue);
+    border-radius: 50%;
+    background-color: white;
 }

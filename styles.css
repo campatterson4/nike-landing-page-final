@@ -66,6 +66,13 @@ nav.container {
     flex: 1;
 }
 
+.nav-link {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    font-size: .9rem;
+}
+
 .links ul {
     display: flex;
     align-items: center;

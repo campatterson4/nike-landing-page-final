@@ -45,6 +45,11 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
+    transition: 0.4s;
+}
+
+header.scrolled {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .container {
@@ -96,6 +101,12 @@ nav.container {
     font-style: italic;
     font-size: 2.4rem;
     color: var(--black);
+    transition: 0.4s;
+}
+
+header.scrolled .nike-logo {
+    height: 80px;
+    line-height: 80px;
 }
 
 .dark-mode-btn {

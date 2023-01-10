@@ -5,6 +5,7 @@
     --light-blue: #F0F7FE;
     --black: #424242;
     --white: #E3e5e8;
+    --blue: #628EE6;
 }
 
 
@@ -72,6 +73,7 @@ nav.container {
     margin: 0 1rem;
     font-size: .9rem;
     letter-spacing: .5px;
+    color: var(--blue) !important;
 }
 
 .links ul {

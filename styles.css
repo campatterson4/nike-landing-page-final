@@ -136,7 +136,7 @@ header.scrolled .nike-logo {
 .main-area {
     width: 100%;
     overflow: hidden;
-    padding: 275px 0; 
+    padding: 260px 0; 
 }
 
 .main-area .container {
@@ -146,7 +146,7 @@ header.scrolled .nike-logo {
     max-height: 600px;
 }
 
-.main-sub-heading {
+    .main-sub-heading {
     color: var(--grey);
     font-size: 1rem;
     letter-spacing: .5px;
@@ -156,7 +156,7 @@ header.scrolled .nike-logo {
    }
 
    .main-heading {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--black);
     line-height: 1.3;
    }
@@ -168,7 +168,15 @@ header.scrolled .nike-logo {
     letter-spacing: .5px;
    }
 
-button {
+   .main-area .main-sub-heading {
+    margin-bottom: 0.7rem;
+   }
+
+   .main-area .main-summary {
+    margin: .8rem 0;
+   }
+
+    button {
     display: inline-block;
     border-radius: 4px;
     background-color: #FFEFFD;

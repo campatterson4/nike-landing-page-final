@@ -20,4 +20,6 @@
 
 body {
     background-color: var(--light-blue);
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }

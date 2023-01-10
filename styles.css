@@ -198,6 +198,7 @@ button {
     font-size: 1rem;
     letter-spacing: .5px;
     border-left: 2px solid var(--blue);
+    margin-bottom: .6rem;
     padding: 0.13rem 0.40rem;
    }
 

@@ -192,3 +192,9 @@ button {
     margin-top: 40px;
     margin-left: 80px;
    }
+
+   .main-sub-heading {
+    color: var(--grey);
+    font-size: 1rem;
+    letter-spacing: .5px;
+   }

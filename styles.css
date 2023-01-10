@@ -71,6 +71,7 @@ nav.container {
     text-transform: uppercase;
     margin: 0 1rem;
     font-size: .9rem;
+    letter-spacing: .5px;
 }
 
 .links ul {

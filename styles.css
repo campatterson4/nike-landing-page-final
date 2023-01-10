@@ -107,4 +107,7 @@ nav.container {
     color: var(--blue);
     border-radius: 50%;
     background-color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }

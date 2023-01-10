@@ -55,3 +55,9 @@ nav.container {
     flex-wrap: wrap;
     align-items: center;
 }
+ 
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}

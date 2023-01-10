@@ -1,7 +1,23 @@
+/* ////// ROOT COLORS ////// */
+
+:root {
+    --light-pink: #FFEFFD;
+    --light-blue: #F0F7FE;
+    --black: #424242;
+    --white: #E3e5e8;
+}
+
+
+
+
 /* ////// ALL ////// */
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-blue);
 }

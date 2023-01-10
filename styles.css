@@ -50,6 +50,7 @@ header {
 
 header.scrolled {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 999;
 }
 
 .container {
@@ -131,16 +132,18 @@ header.scrolled .nike-logo {
 
 /* ////// MAIN AREA ////// */
 
+.main-area {
+    width: 100%;
+    overflow: hidden;
+    padding: 300px 0; 
+}
 
-
-
-
-
-
-
-
-
-
+.main-area .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    max-height: 600px;
+}
 
 button {
     display: inline-block;
@@ -182,4 +185,9 @@ button {
    button:hover span:after {
     opacity: 1;
     right: 0;
+   }
+   
+   .buy-button {
+    margin-top: 40px;
+    margin-left: 80px;
    }

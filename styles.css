@@ -240,56 +240,94 @@ header.scrolled .nike-logo {
     filter: brightness(90%)
    }
 
+   .btn-wrapper {
+    padding: 1rem 10rem;
+   }
 
-
-
-
-
-
-    button {
+   button {
+    position: relative;
     display: inline-block;
-    border-radius: 4px;
-    background-color: #FFEFFD;
-    border: none;
-    color: #628EE6;
-    text-align: center;
-    font-size: .8rem;
-    padding: 16px;
-    width: 130px;
-    transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+   button.add-btn {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.add-btn .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: var(--black);
+    border-radius: 1.625rem;
+   }
+   
+   button.add-btn .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: var(--blue);
+   }
+   
+   button.add-btn .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.add-btn .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid var(--light-blue);
+    border-right: 0.125rem solid var(--light-blue);
+    transform: rotate(45deg);
+   }
+   
+   button.add-btn .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: var(--black);
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
     text-transform: uppercase;
    }
    
-   button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+   button:hover .circle {
+    width: 100%;
    }
    
-   button span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
+   button:hover .circle .icon.arrow {
+    background: var(--light-blueblue);
+    transform: translate(1rem, 0);
    }
    
-   button:hover span {
-    padding-right: 15px;
+   button:hover .button-text {
+    color: var(--light-blue)
    }
-   
-   button:hover span:after {
-    opacity: 1;
-    right: 0;
-   }
-   
-   .buy-button {
-    margin: 1rem 4rem;
-   }
-
-   

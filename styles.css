@@ -55,6 +55,7 @@ header {
 header.scrolled {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 999;
+    background-color: var(--light-blue);
 }
 
 .container {
@@ -112,6 +113,7 @@ nav.container {
 header.scrolled .nike-logo {
     height: 80px;
     line-height: 80px;
+    z-index: 999;
 }
 
 .dark-mode-btn {

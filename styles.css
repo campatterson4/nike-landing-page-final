@@ -11,8 +11,25 @@
     --tan: #DFD3C1;
     --dark-blue: #004C8D;
 }
+body{
+--light-pink: #FFEFFD;
+    --light-blue: #F0F7FE;
+    --black: #424242;
+    --white: #E3e5e8;
+    --blue: #628EE6;
+    --grey: #71797E;
+    --coral: #ffabab;
+    --tan: #DFD3C1;
+    --dark-blue: #004C8D;
+}
 
+body.dark {
+    --light-blue: 	hsl(0, 19%, 22%);
+}
 
+body.dark .dark-mode-btn {
+    background-color: var(--black);
+}
 
 
 /* ////// ALL ////// */
@@ -132,7 +149,7 @@ header.scrolled .nike-logo {
     font-size: 1.1rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: 0.4s;
-    margin-right: 1rem;
+    margin-right: .6rem;
 }
 
 .dark-mode-btn:hover {

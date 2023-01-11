@@ -7,7 +7,7 @@
     --white: #E3e5e8;
     --blue: #628EE6;
     --grey: #71797E;
-    --coral: #EBAEA1;
+    --coral: #ffabab;
     --tan: #DFD3C1;
     --dark-blue: #004C8D;
 }
@@ -139,14 +139,14 @@ header.scrolled .nike-logo {
 .main-area {
     width: 100%;
     overflow: hidden;
-    padding: 260px 0; 
+    padding: 210px 0; 
 }
 
 .main-area .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    max-height: 600px;
+    max-height: 400px;
 }
 
     .main-sub-heading {
@@ -178,6 +178,64 @@ header.scrolled .nike-logo {
    .main-area .main-summary {
     margin: .8rem 0;
    }
+
+
+   .color-wrapper {
+    display: flex;
+    flex-flow: row;
+    padding: 2rem 8rem;
+   }
+
+   .color-wrapper > div.active {
+    border: 2px solid var(--black);
+   }
+
+   .color-wrapper > div:hover {
+    cursor: pointer;
+   }
+
+   .color-wrapper > div {
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid var(--black);
+    border-radius: 50%;
+    background-color: var(--light-blue);
+   }
+
+   .color-wrapper > div > div {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   }
+
+   .color-wrapper .shoe-bg-pink {
+    background-color: var(--coral);
+    transition: 0.4s
+   }
+
+   .color-wrapper .shoe-bg-blue {
+    background-color: var(--blue);
+    transition: 0.4s
+   }
+
+   .color-wrapper .shoe-bg-tan {
+    background-color: var(--tan);
+    transition: 0.4s
+   }
+
+   .color-wrapper .shoe-bg-pink:hover,
+   .color-wrapper .shoe-bg-blue:hover,
+   .color-wrapper .shoe-bg-tan:hover {
+    filter: brightness(90%)
+   }
+
+
+
+
+
+
 
     button {
     display: inline-block;

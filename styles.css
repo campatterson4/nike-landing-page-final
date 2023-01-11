@@ -176,14 +176,23 @@ header.scrolled .nike-logo {
    }
 
    .main-area .main-summary {
-    margin: .8rem 0;
+    margin: 2rem 0;
    }
 
+   .shoe-color h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .9rem;
+    color: var(--grey);
+    padding-left: 3em;
+    padding-top: 2.2em;
+    margin-left: 9.3rem;
+   }
 
    .color-wrapper {
     display: flex;
     flex-flow: row;
-    padding: 2rem 8rem;
+    padding: .6rem 8rem;
    }
 
    .color-wrapper > div.active {

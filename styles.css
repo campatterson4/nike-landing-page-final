@@ -50,12 +50,13 @@ header {
     left: 0;
     z-index: 999;
     transition: 0.4s;
+    background-color: transparent !important;
 }
 
 header.scrolled {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 999;
-    background-color: var(--light-blue);
+    background-color: var(--light-blue) !important;
 }
 
 .container {
@@ -146,7 +147,7 @@ header.scrolled .nike-logo {
 
 .main-area .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 550px;
     align-items: center;
     max-height: 600px;
 }
@@ -196,7 +197,8 @@ header.scrolled .nike-logo {
    .color-wrapper {
     display: flex;
     flex-flow: row;
-    padding: .3rem 7.4rem;
+    padding: .3rem 3rem;
+    margin-left: 4.4rem;
    }
 
    .color-wrapper > div.active {
@@ -245,7 +247,7 @@ header.scrolled .nike-logo {
    }
 
    .btn-wrapper {
-    padding: 1rem 7rem;
+    padding: 1rem 7.5rem;
    }
 
    button {
@@ -334,4 +336,24 @@ header.scrolled .nike-logo {
    
    button:hover .button-text {
     color: var(--light-blue)
+   }
+
+   .main-image {
+    width: 100%;
+    height: 155%;
+    padding-top: 3rem;
+    position: relative;
+    /* min-height: calc(100% + 120px); */
+    background-image: linear-gradient(124deg, var(--blue), var(--coral));
+    margin-top: -120px;
+    border-radius: 0 0 80px 80px;
+   }
+
+   .main-image .shoe-pic {
+    position: absolute;
+    width: 95%;
+    bottom: 0;
+    right: 10%;
+    transform: translateX(-50%);
+    transform: rotate(-35deg);
    }

@@ -23,15 +23,6 @@ body{
     --dark-blue: #004C8D;
 }
 
-body.dark {
-    --light-blue: 	hsl(0, 19%, 22%);
-}
-
-body.dark .dark-mode-btn {
-    background-color: var(--black);
-}
-
-
 /* ////// ALL ////// */
 
 * {

@@ -146,7 +146,7 @@ header.scrolled .nike-logo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    max-height: 400px;
+    max-height: 600px;
 }
 
     .main-sub-heading {
